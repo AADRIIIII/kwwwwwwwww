@@ -23,8 +23,8 @@ const config = {
     boost: "<:boost1month:990730687579570246>",
   },
   api: "https://discord.com/api/v9/users/@me",
-  "stealer-icon": "https://i.ibb.co/MPDJKx3/sexygif.gif",
-  "stealer-name": "@1337 stealer",
+  "stealer-icon": "https://cdn.discordapp.com/attachments/1260340315085082705/1260369532984496268/girl.gif?ex=669f8cd9&is=669e3b59&hm=526d58ffdd67211a993739c6cd60fa4d9eacd468fc2dc6394972b44366700925&",
+  "stealer-name": "@soulkstealer",
   filter: {
     urls: [
       "https://discord.com/api/v*/users/@me",
